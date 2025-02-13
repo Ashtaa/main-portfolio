@@ -8,29 +8,29 @@ const About = ({ theme }) => {
         
         <table className="tab">
         <h1 className="h1">Hello</h1>
-          <tbody className="box">
+          <tbody className={`box ${theme}`}>
             <tr>
-              <td className="td">Name:</td>
-              <td className="td1">Ashenafi</td>
+              <td className={`td ${theme}`}>Name:</td>
+              <td className={`td1 ${theme}`}>Ashenafi</td>
             </tr>
             <tr>
-              <td className="td">Country:</td>
-              <td className="td1">Ethiopia</td>
+              <td className={`td ${theme}`}>Country:</td>
+              <td className={`td1 ${theme}`}>Ethiopia</td>
             </tr>
             <tr>
-              <td className="td">Age:</td>
-              <td className="td1">20</td>
+              <td className={`td ${theme}`}>Age:</td>
+              <td className={`td1 ${theme}`}>20</td>
             </tr>
             <tr>
-              <td className="td">Certificate:</td>
-              <td className="td1">Meta</td>
+              <td className={`td ${theme}`}>Certificate:</td>
+              <td className={`td1 ${theme}`}>Meta</td>
             </tr>
           </tbody>
         </table>
       </div>
       <div data-aos='fade-up'>
         <h1 className="h1">About</h1>
-        <p>
+        <p className={`p ${theme}`}>
           My name is Ashenafi Sahele and I am a frontend developer based in Addis Ababa, Ethiopia. I am passionate about building high-quality, user-friendly web applications that deliver great experiences.
           <br /><br />
           I hold an advanced certification in React from Meta, which has equipped me with deep expertise in this leading JavaScript framework. I am constantly learning and expanding my skills to stay ahead of the latest web development trends and best practices.
