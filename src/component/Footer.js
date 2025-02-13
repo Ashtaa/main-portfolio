@@ -22,7 +22,7 @@ function Footer({theme}) {
             <FaLinkedin />
           </a>
         </div>
-        <p className="footer-copyright">© {new Date().getFullYear()} Gym Website. All rights reserved.</p>
+        <p className="footer-copyright">© {new Date().getFullYear()} Portfolio. All rights reserved.</p>
       </div>
       
     </footer>

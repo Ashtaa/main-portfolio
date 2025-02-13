@@ -23,7 +23,7 @@ const Skills = () => {
   }, []);
 
   return (
-    <div className="skills-container">
+    <div className="skills-container" data-aos='fade-up'>
       <h2 className="skill-header">My Skills</h2>
       <div className="bar-container">
       <div className="skill-bar-container">

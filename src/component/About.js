@@ -4,7 +4,7 @@ import './About.css'
 const About = ({ theme }) => {
   return (
     <div className={`about-content ${theme}`}  id="about" >
-      <div className="table" id="about-section">
+      <div className="table" id="about-section" data-aos='fade-up'>
         
         <table className="tab">
         <h1 className="h1">Hello</h1>
@@ -28,7 +28,7 @@ const About = ({ theme }) => {
           </tbody>
         </table>
       </div>
-      <div>
+      <div data-aos='fade-up'>
         <h1 className="h1">About</h1>
         <p>
           My name is Ashenafi Sahele and I am a frontend developer based in Addis Ababa, Ethiopia. I am passionate about building high-quality, user-friendly web applications that deliver great experiences.

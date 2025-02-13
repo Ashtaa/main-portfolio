@@ -10,8 +10,8 @@ const Home = ({ theme }) => {
  
   const downloadCV = () => {
     const link = document.createElement("a");
-    link.href = `${process.env.PUBLIC_URL}/ashenafi-sahele.pdf`; // PUBLIC_URL ensures proper path resolution
-    link.download = "ashenaf-sahele.pdf";
+    link.href = `${process.env.PUBLIC_URL}/Ashenafi.pdf`; // PUBLIC_URL ensures proper path resolution
+    link.download = "Ashenafi.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
