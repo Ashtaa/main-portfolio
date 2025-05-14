@@ -40,6 +40,7 @@ function App() {
         <Route path="/skill"  element={<Skills />} />
         <Route path="/project"   element={<Projects theme={theme}/>} />
         <Route path="contact" element={<Contact />} />
+        
         </Routes>
      <Footer theme={theme} />
     </div>

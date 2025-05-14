@@ -1,47 +1,44 @@
-import React from "react";
-import './About.css'
+import { FaGithub, FaLinkedin,FaFileCode,FaNodeJs,FaServer,FaDatabase,FaGitAlt,FaReact } from "react-icons/fa"
+import "./About.css"
 
-const About = ({ theme }) => {
+const About = ({theme}) => {
   return (
-    <div className={`about-content ${theme}`}  id="about" >
-      <div className="table" id="about-section" data-aos='fade-up'>
-        
-        <table className="tab">
-        <h1 className="h1">Hello</h1>
-          <tbody className={`box ${theme}`}>
-            <tr>
-              <td className={`td ${theme}`}>Name:</td>
-              <td className={`td1 ${theme}`}>Ashenafi</td>
-            </tr>
-            <tr>
-              <td className={`td ${theme}`}>Country:</td>
-              <td className={`td1 ${theme}`}>Ethiopia</td>
-            </tr>
-            <tr>
-              <td className={`td ${theme}`}>Age:</td>
-              <td className={`td1 ${theme}`}>20</td>
-            </tr>
-            <tr>
-              <td className={`td ${theme}`}>Certificate:</td>
-              <td className={`td1 ${theme}`}>Meta</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div data-aos='fade-up'>
-        <h1 className="h1">About</h1>
-        <p className={`p ${theme}`}>
-          My name is Ashenafi Sahele and I am a frontend developer based in Addis Ababa, Ethiopia. I am passionate about building high-quality, user-friendly web applications that deliver great experiences.
-          <br /><br />
-          I hold an advanced certification in React from Meta, which has equipped me with deep expertise in this leading JavaScript framework. I am constantly learning and expanding my skills to stay ahead of the latest web development trends and best practices.
-          <br /><br />
-          As a young, dedicated professional, I bring a strong work ethic and creative problem-solving abilities to every project I take on. I thrive on the opportunity to collaborate with cross-functional teams and contribute to the entire software development lifecycle.
-          <br /><br />
-          If you're looking for a frontend developer who combines technical mastery, an eye for design, and a passion for building remarkable digital experiences, I welcome the opportunity to discuss how I can contribute to your next project.
+    <div className={`about-container ${theme}`}>
+      <div className={`about-content  ${theme} `}>
+        <h1 className={`about-title  ${theme} `}>About Me</h1>
+
+        <p className={`about-text  ${theme} `}>
+          Hello! I'm a passionate developer with experience in building web applications using modern technologies. I
+          enjoy creating user-friendly and efficient solutions to complex problems.
         </p>
+
+        <p className={`about-text  ${theme} `}>
+          I'm proficient in React, HTML, CSS, and various other front-end and back-end technologies. I'm always eager to
+          learn new things and stay up-to-date with the latest industry trends.
+        </p>
+
+        <h2 className="about-subtitle">Skills</h2>
+       <p className={`about-p-text ${theme}`}>
+  <FaServer style={{ color: '#000000' }} />
+  <FaNodeJs style={{ color: '#3c873a' }} />
+  <FaReact style={{ color: '#61dafb' }} />
+  <FaDatabase style={{ color: '#4DB33D' }} />
+  <FaFileCode style={{ color: '#3178c6' }} />
+  <FaGitAlt style={{ color: '#f05032' }} />
+</p>
+
+        <h2 className="about-subtitle">Connect with Me</h2>
+        <div className="social-links">
+          <a href="https://github.com/Ashtaa" aria-label="GitHub" className="social-link">
+            <FaGithub size={32} />
+          </a>
+          <a href="https://linkedin.com/in/ashenafisahele" aria-label="LinkedIn" className="social-link">
+            <FaLinkedin size={32} />
+          </a>
+        </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default About;
+export default About

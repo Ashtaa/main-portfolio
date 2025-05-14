@@ -1,6 +1,6 @@
 import React from "react";
 import './Home.css';
-import img from './../img/556+-removebg.png';
+import img from './../img/me3.jpg';
 
 import { useNavigate } from 'react-router-dom'; 
 
