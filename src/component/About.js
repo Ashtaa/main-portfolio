@@ -62,7 +62,7 @@ const About = ({theme}) => {
 
         <h2 className="about-subtitle">Skills</h2>
        <p className={`about-p-text ${theme}`}>
-  <FaServer style={{ color: '#000000' }} />
+  <FaServer style={{ color: theme === "dark" ? "#ffffff" : "#000000" }} />
   <FaNodeJs style={{ color: '#3c873a' }} />
   <FaReact style={{ color: '#61dafb' }} />
   <FaDatabase style={{ color: '#4DB33D' }} />
@@ -81,8 +81,9 @@ const About = ({theme}) => {
           
         </div>
       </div>
-
+<h2 style={{fontSize:'50px'}}>CIRTIFICATES</h2>
     <div className="cirtificate-container">
+      
   {cirtificates.map((certificate, index) => (
     <div key={index} className="certificate-card">
       <h2>{certificate.title}</h2>
