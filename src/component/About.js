@@ -81,7 +81,7 @@ const About = ({theme}) => {
           
         </div>
       </div>
-<h2 style={{fontSize:'50px'}} className="cir-h1">CIRTIF<span className="h2-span">ICATES</span></h2>
+<h2 style={{fontSize:'50px'}} className="cir-h1">CERTIF<span className="h2-span">ICATES</span></h2>
     <div className="cirtificate-container">
       
   {cirtificates.map((certificate, index) => (
