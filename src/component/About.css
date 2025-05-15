@@ -4,6 +4,7 @@
 }
 .about-container{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -114,4 +115,29 @@
   .about-text {
     font-size: 1rem;
   }
+}
+.certificate-card{
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 400px;
+  border: 2px solid gray;
+}
+.cirtificate-container{
+  display: flex;
+  margin-top: 20px;
+}
+.cirtificate-img{
+  width: 300px;
+  height: 300px;
+}
+.download-btn{
+  width:300px ;
+}
+.certificate-card h1{
+  text-align: center;
+}
+.certificate-card p{
+   width:300px ;
 }
